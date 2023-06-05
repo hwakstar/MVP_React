@@ -29,9 +29,8 @@
 .header_area{
     background-color: #5c00b7!important;
 }
-.navbar-nav{
-    /* position: relative; */
-}
+/* .navbar-nav{
+    /* position: relative; */ */
 .logo-image{
     max-height: 55px;
 }
@@ -63,16 +62,16 @@
     width: 75%;
 }
 .vl {
-    border-left: 2px solid rgb(13, 56, 150);
-    height: 500px;
+    border-left: 2px solid rgb(20, 21, 26);
+    height: 450px;
   }
 .v2 {
-    border-left: 2px solid rgb(13, 56, 150);
-    height: 200px;
+    border-left: 2px solid rgb(20, 21, 26);
+    height: 500px;
   }
 .v3 {
-    border-left: 2px solid rgb(13, 56, 150);
-    height: 350px;
+    border-left: 2px solid rgb(20, 21, 26);
+    height: 500px;
   }
 .custom-nav-item {
     display: flex;
