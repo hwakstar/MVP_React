@@ -38,6 +38,12 @@
     display: flex;
     padding: 0 10px!important;
 }
+.closebutton {
+    float:right;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+  }
 .custom-nav-item:hover {
     background-color: #d0bfff;
     /* background-color: #d3d5ff; */

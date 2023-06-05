@@ -20,7 +20,11 @@ const CustomNavbar = (props) => {
    
       <header className="header_area">
         <div style={{background:"black",height:"30px"}}>
-          <p style={{textAlign:"center",color:"white"}}>Special offer for the first 100 community partners ! Learn more </p>
+          <p style={{textAlign:"center",color:"white"}}>Special offer for the first 100 community partners ! 
+          <span>Learn more</span> 
+          <img className="logo-image" src={require("../img/products/arrow-head.png")} width="25px" height="25px" alt="" />
+          <span className="closebutton">&times;</span>
+ </p>
         
         </div>
         <nav className={`navbar navbar-expand-xl menu_one ${mClass}`}>
