@@ -71,7 +71,7 @@ const CustomNavbar = (props) => {
                   >
                     {t("navmenu.products")}
                   </Link>
-                  <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                  <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                       <li className="nav-item">
                         <div className="row">
@@ -387,7 +387,7 @@ const CustomNavbar = (props) => {
                       </li>
                     </ul>
                   </div> */}
-                    <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                    <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                       <li className="nav-item">
                         <div className="row">
@@ -593,7 +593,7 @@ const CustomNavbar = (props) => {
                   >
                     {t("navmenu.company")}
                   </Link>
-                  <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                  <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                     <li className="nav-item">
                         <div className="row">
