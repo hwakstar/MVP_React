@@ -23,11 +23,11 @@ const CustomNavbar = (props) => {
           <p style={{textAlign:"center",color:"white"}}>Special offer for the first 100 community partners ! 
           <span>Learn more</span> 
           <img className="logo-image" src={require("../img/products/arrow-head.png")} width="25px" height="25px" alt="" />
-          <span className="closebutton">&times;</span>
- </p>
+          {/* <span className="closebutton">&times;</span> */}
+          </p>
         
         </div>
-        <nav className={`navbar navbar-expand-xl menu_one ${mClass}`}>
+        <nav className={`navbar navbar-expand-xl menu_one ${mClass} bg-dark`}>
           <div className={`container ${cClass}`}>
             <Link className={`navbar-brand mr-0 flex-grow-1 ${slogo}`} to="/">
               <img className="logo-image" src={require("../img/our_logo1.png")} alt="" />
@@ -71,11 +71,11 @@ const CustomNavbar = (props) => {
                   >
                     {t("navmenu.products")}
                   </Link>
-                  <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                  <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                       <li className="nav-item">
                         <div className="row">
-                          <div className="col-4">
+                          <div className="col-md-4">
                             <div className="row" style={{marginTop:"50px"}}>
                             <img className="logo-image" src={require("../img/digital_product.png")} alt="" />
                             </div>
@@ -88,15 +88,15 @@ const CustomNavbar = (props) => {
                               eiusmod tempor incididunt ut labore <br/>
                               et dolore magna aliqua.
                             </div>
-                            <div className="row" style={{marginTop:"20px",marginBottom:"100px"}}>
+                            <div className="row learn_more" style={{marginTop:"20px"}}>
                               <h5 style={{color:"#5c00b7"}}>Learn more</h5>
                               <img className="logo-image" src={require("../img/products/arrow.png")} alt="" style={{marginTop:"-20px"}}></img>
                             </div>
                           </div>
-                          <div className="vl"></div>
-                          <div className="col-3">
+                          <div className="vl d-none d-md-block"></div>
+                          <div className="col-6 col-md-3">
                             <div className="row">
-                            <b style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>PRODUCT SUITES</b>
+                            <b className="nav-heading" style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>PRODUCT SUITES</b>
                             </div>
                             <div className="row" style={{marginLeft:"40px",marginTop:"30px"}}>
                               <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
@@ -146,7 +146,7 @@ const CustomNavbar = (props) => {
 
 
 
-                          <div className="col-3">
+                          <div className="col-6 col-md-3">
                             <div className="row">
                             {/* <b style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}></b> */}
                             </div>
@@ -387,11 +387,11 @@ const CustomNavbar = (props) => {
                       </li>
                     </ul>
                   </div> */}
-                    <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                    <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                       <li className="nav-item">
                         <div className="row">
-                          <div className="col-4">
+                          <div className="col-md-4">
                             <div className="row" style={{marginTop:"50px"}}>
                             <img className="logo-image" src={require("../img/company.png")} alt="" />
                             </div>
@@ -404,15 +404,15 @@ const CustomNavbar = (props) => {
                               eiusmod tempor incididunt ut labore <br/>
                               et dolore magna aliqua.
                             </div>
-                            <div className="row" style={{marginTop:"20px",marginBottom:"100px"}}>
+                            <div className="row learn_more" style={{marginTop:"20px"}}>
                               <h5 style={{color:"#5c00b7"}}>Learn more</h5>
                               <img className="logo-image" src={require("../img/products/arrow.png")} alt="" style={{marginTop:"-20px"}}></img>
                             </div>
                           </div>
-                          <div className="vl"></div>
-                          <div className="col-3">
+                          <div className="vl d-none d-md-block"></div>
+                          <div className="col-5 col-md-3">
                             <div className="row">
-                            <b style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>INDUSTRIES</b>
+                            <b className="nav-heading" style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>INDUSTRIES</b>
                             </div>
                             <div className="row" style={{marginLeft:"40px",marginTop:"30px"}}>
                               <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
@@ -439,14 +439,11 @@ const CustomNavbar = (props) => {
                               <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>Marketplaces</p>
                             </div>
                           </div>                
-
-
-
-                          <div className="col-3">
+                          <div className="col-7 col-md-3">
                             <div className="row">
                             {/* <b style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}></b> */}
                             </div>
-                            <div className="row" style={{marginLeft:"40px",marginTop:"85px"}}>
+                            <div className="row digital-goods-services" style={{marginLeft:"40px", marginTop: "60px"}}>
                               <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
                               <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>Digital Good & Services</p>
                             </div>
@@ -494,7 +491,7 @@ const CustomNavbar = (props) => {
 
                       <li className="nav-item">
                         <ul className="dropdown-menu custom-nav-menu mx-lg-0 scroll">
-                        <div className="col-3">
+                        <div className="col-md-3">
                             <br/>
                           <li className="nav-item-title">
                             {t("navmenu.resources")}
@@ -593,11 +590,11 @@ const CustomNavbar = (props) => {
                   >
                     {t("navmenu.company")}
                   </Link>
-                  <div className="mega_menu_inner" style={{width:"75%",marginLeft:"13%"}}>
+                  <div className="mega_menu_inner">
                     <ul className="dropdown-menu container">
                     <li className="nav-item">
                         <div className="row">
-                          <div className="col-4">
+                          <div className="col-md-4">
                           <div className="row" style={{marginTop:"50px"}}>
                             <img className="logo-image" src={require("../img/company.png")} alt="" />
                             </div>
@@ -610,38 +607,35 @@ const CustomNavbar = (props) => {
                               eiusmod tempor incididunt ut labore <br/>
                               et dolore magna aliqua.
                             </div>
-                            <div className="row" style={{marginTop:"20px",marginBottom:"60px"}}>
+                            <div className="row learn_more" style={{marginTop:"20px"}}>
                               <h5 style={{color:"#5c00b7"}}>Learn more</h5>
                               <img className="logo-image" src={require("../img/products/arrow.png")} alt="" style={{marginTop:"-20px"}}></img>
                             </div>
                             </div>
-                            <div className="vl"></div>
-                            <div className="col-3">
-                            <div className="row">
-                            <b style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>Our Mission</b>
-                            </div>
-                            <div className="row" style={{marginLeft:"40px",marginTop:"30px"}}>
-                              <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
-                              <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>About us</p>
-                            </div>
-                            <div className="row" style={{marginLeft:"40px"}}>
-                              <img className="logo-image" src={require("../img/products/identity.png")} alt=""></img>
-                              <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>Careers</p>
+                            <div className="vl d-none d-md-block"></div>
+                            <div className="col-6 col-md-3">
+                              <div className="row">
+                                <b className="nav-heading" style={{fontSize:"20px",marginLeft:"100px",marginTop:"30px",fontWeight:"600"}}>Our Mission</b>
+                              </div>
+                              <div className="row" style={{marginLeft:"40px",marginTop:"30px"}}>
+                                <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
+                                <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>About us</p>
+                              </div>
+                              <div className="row" style={{marginLeft:"40px"}}>
+                                <img className="logo-image" src={require("../img/products/identity.png")} alt=""></img>
+                                <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>Careers</p>
                               </div>                     
                             </div>
-                            <div className="col-3">
-                            <div className="row">                        
-                            </div>                        
+                            <div className="col-6 col-md-3">
+                              <div className="row">                        
+                              </div>                        
 
-                            <div className="row" style={{marginLeft:"40px",marginTop:"85px"}}>
-                              <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
-                              <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>News & Press</p>
-                            </div>
-                           
-                            </div>
-
-
-
+                                <div className="row" style={{marginLeft:"40px",marginTop:"85px"}}>
+                                  <img className="logo-image" src={require("../img/products/privacy.png")} alt=""></img>
+                                  <p style={{marginTop:"15px",marginLeft:"10px",fontWeight:"600"}}>News & Press</p>
+                                </div>
+                            
+                              </div>
                             </div>
                             </li>
 

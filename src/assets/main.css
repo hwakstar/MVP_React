@@ -119,6 +119,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   white-space: pre-line;
 }
 
+div.learn_more {
+  margin-bottom: 100px;
+}
+
 @media (min-width: 1250px) {
   .container {
     max-width: 1200px;
@@ -126,8 +130,22 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 @media (max-width: 767px) {
+  .nav-heading {
+    margin-left: 60px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
   .container {
     max-width: 100%;
+  }
+  div.learn_more {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .digital-goods-services {
+    margin-top: 85px !important;
   }
 }
 
@@ -1173,6 +1191,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
   background: #fff;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
